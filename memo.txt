@@ -1,0 +1,19 @@
+4:47
+
+### open in browser
+npm start
+expo login
+
+
+
+
+### react native 규칙
+div   ->    view
+span  ->    text
+view의 style에서 flex: 는 화면에서의 해당 view 사용 면적 비율을 나타낸다.
+
+
+
+
+### Alert
+import Alert from "react-native";
