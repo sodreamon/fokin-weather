@@ -17,3 +17,9 @@ view의 style에서 flex: 는 화면에서의 해당 view 사용 면적 비율�
 
 ### Alert
 import Alert from "react-native";
+
+
+
+
+### 소숫점 제거
+Math.round(temp)
