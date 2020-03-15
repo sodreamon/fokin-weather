@@ -19,6 +19,7 @@ export default class extends React.Component {
     console.log(data);
     this.setState({
       isLoading: false,
+
       condition: data.weather[0].main,
       //weather 값이 array로 돼있기 때문에 [0]로 첫번째 값을 선택해줌
       temp: data.main.temp
